@@ -1,0 +1,13 @@
+### テスト送信
+POST http://localhost:8080/clients/dZ65jD9MRsWzyPXELK9dgw:APA91bEYL2po6ZXGZvuavlJhXcqvO4EczgqxiWUdtM_yL_sKyUB14NudFU9yDKvbldr_M5jaANA4AtVlhXLp8bio9B_-OGl-iVkfLA2YU5XqLaXxELta8TB2RQW7F53STlAhOag1pXmI HTTP/1.1
+Content-Type: application/json
+
+{
+  "title": "テスト",
+  "body": "テストメッセージ",
+  "image": "https://www.gekal.cn/assets/imgs/gekal.png",
+  "data": {
+    "key1": "value1",
+    "key2": "value2"
+  }
+}
